@@ -1,0 +1,8 @@
+ma\darija\translator\TranslateRequest.class
+ma\darija\translator\TranslateResponse.class
+ma\darija\translator\CorsFilter.class
+ma\darija\translator\TranslatorResource.class
+ma\darija\translator\TranslationService.class
+ma\darija\translator\RestApplication.class
+ma\darija\translator\SecurityConfig.class
+ma\darija\translator\DemoIdentityStore.class

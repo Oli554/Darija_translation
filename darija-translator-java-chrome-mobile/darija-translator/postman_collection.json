@@ -1,0 +1,8 @@
+{
+  "info": { "name": "Darija Translator API", "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json" },
+  "variable": [ { "key": "baseUrl", "value": "http://localhost:8080/darija-translator/api" }, { "key": "username", "value": "translator" }, { "key": "password", "value": "ChangeMe123!" } ],
+  "item": [
+    { "name": "Health (public)", "request": { "method": "GET", "url": "{{baseUrl}}/translator/health" } },
+    { "name": "Translate (Basic Auth)", "request": { "auth": { "type": "basic", "basic": [ { "key": "username", "value": "{{username}}", "type": "string" }, { "key": "password", "value": "{{password}}", "type": "string" } ] }, "method": "POST", "header": [ { "key": "Content-Type", "value": "application/json" } ], "body": { "mode": "raw", "raw": "{\n  \"text\": \"Good morning! How are you?\"\n}", "options": { "raw": { "language": "json" } } }, "url": "{{baseUrl}}/translator/translate" } }
+  ]
+}

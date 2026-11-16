@@ -1,0 +1,1 @@
+This file is intentionally outside the WAR web root. The Jakarta Security Basic authentication mechanism and IdentityStore are configured by annotations.

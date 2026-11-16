@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Darija Quick Translator",
+  "version": "1.0.0",
+  "description": "Translate selected webpage text into Moroccan Darija in Chrome's side panel.",
+  "permissions": ["contextMenus", "storage", "sidePanel"],
+  "host_permissions": ["http://localhost:8080/*", "http://127.0.0.1:8080/*"],
+  "background": { "service_worker": "service-worker.js" },
+  "side_panel": { "default_path": "sidepanel.html" },
+  "action": { "default_title": "Open Darija Translator" }
+}
